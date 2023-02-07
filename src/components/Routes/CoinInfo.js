@@ -17,7 +17,9 @@ export default function CoinInfo() {
             console.log(error)
           })
     }
-    
+    // ? Only do this when necessary
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     ,[])
   return (
     <div>
