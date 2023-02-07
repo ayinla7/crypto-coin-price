@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom'
 import './CoinInfo.css'
 import DOMPurify from 'dompurify'
 
-
 export default function CoinInfo() {
 
     const params = useParams()

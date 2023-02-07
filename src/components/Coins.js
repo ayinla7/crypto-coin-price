@@ -9,11 +9,11 @@ export default function Coins({coins}) {
     <div className='container'>
         <div className='heading'>
             <p>#</p>
-            <p className='coin-name'>Coin</p>
-            <p>Price</p>
+            <p className='coin-name'>COIN</p>
+            <p>PRICE</p>
             <p>24h</p>
-            <p className='hide-mobile'>Volume</p>
-            <p className='hide-mobile'>Mkt Cap</p>
+            <p className='hide-mobile'>VOLUME</p>
+            <p className='hide-mobile'>MKT CAP</p>
          
         </div>
   {coins.map(
